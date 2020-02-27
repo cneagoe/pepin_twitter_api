@@ -106,6 +106,14 @@ if __name__ == '__main__':
     except:
         None
 
+    """ follow user """
+    try:
+        friendshipResponse = api.create_friendship(screen_same="CiprianNeagoe1")
+    except:
+        none
+    print("response to friendship request: ")
+    print(friendshipResponse)
+    
     """ 
         Folosim functionalitatea de cautare 
     """
